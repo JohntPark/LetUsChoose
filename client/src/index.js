@@ -9,7 +9,7 @@ import Feedback from './components/feedback/feedback'
 import About from './components/about/about'
 import Navbar from './components/nav/navbar'
 import Footer from './components/footer/footer'
-import Search from './components/randomize-food/search'
+import Search from './components/search/search'
 import './App.css';
 import SearchActivity from './components/randomize-activity/searchactivity';
 

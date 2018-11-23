@@ -8,7 +8,7 @@ const RenderOption = props => {
             <div className="card-image">
                 <figure className="image" id="size">
                     <a href={props.link} target= "_blank">
-                    <img src={props.photo} alt="a rendering of the random option" />
+                    <img style={{height: 450}} src={props.photo} alt="a rendering of the random option" />
                     </a>
                 </figure>
             </div>
@@ -25,8 +25,10 @@ const RenderOption = props => {
                                         <td><p className="subtitle is-6 has-text-weight-bold">Address: {props.address}</p></td>
                                     </tr>
                                     <tr>
-                                        <td><p className="subtitle is-6 has-text-weight-bold">Open: {props.open}</p></td>
-                                        <td><p className="subtitle is-6 has-text-weight-bold">Close: {props.close}</p></td>
+                                        <td><p className="subtitle is-6 has-text-weight-bold">Click Image for more Info! </p></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p className="subtitle is-6 has-text-weight-bold">Don't like your choice? Click Find Me Something again! </p></td>
                                     </tr>
                                 </tbody>
                             </table> 
