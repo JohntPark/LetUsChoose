@@ -44,7 +44,7 @@ class SearchActivity extends Component {
                             <br /><br />
                             <input type="submit" value="Find me something!" className="button"></input>
                         </form>
-                        <button className="button" style={{marginTop: 15}}> <NavLink to='/'> Back </NavLink></button>
+                        <button className="button" style={{marginTop: 15}}> <NavLink to='/'>◄ Back </NavLink></button>
                         </div>
                         <div className="column is-2"></div>
                         <div className="column is-6">
